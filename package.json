@@ -23,7 +23,7 @@
     "@bluehalo/ngx-leaflet": "^19.0.0",
     "@softarc/native-federation-node": "^2.0.10",
     "es-module-shims": "^1.5.12",
-    "esm-leaflet": "file:../esm-leaflet",
+    "leaflet-rep": "file:../leaflet-rep/package",
     "leaflet": "^1.9.4",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

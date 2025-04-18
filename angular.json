@@ -74,8 +74,7 @@
 							}
 						],
 						"styles": [
-							"projects/shell/src/styles.css",
-							"./node_modules/leaflet/dist/leaflet.css"
+							"projects/shell/src/styles.css"							
 						],
 						"scripts": []
 					},
@@ -188,10 +187,16 @@
 							{
 								"glob": "**/*",
 								"input": "projects/mfe1/public"
-							}
+							},
+							{
+								"glob": "**/*",
+								"input": "node_modules/leaflet-rep/dist/images",
+								"output": "/assets/leaflet"
+							  }
 						],
 						"styles": [
 							"projects/mfe1/src/styles.css"
+							
 						],
 						"scripts": []
 					},
