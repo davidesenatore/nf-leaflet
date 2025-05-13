@@ -15,9 +15,9 @@ export class AppComponent implements OnInit {
   }
     
   async ngOnInit() {
-
+    //Loads remote component
     const component = await loadRemoteModule("mfe1", "./Component").then(c => c.AppComponent);
-    
+    //Embed component inside the page, as a child of vc ng-template
     this.container.createComponent<any>(component, { environmentInjector: this.injector });
   }
 
